@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/land.bg.JPG);
+    display: grid;
+    place-items: center;
+    padding-top: 40px;
+}
+
+.box{
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+   height: 650px;
+   width: 750px;
+   padding: 90px;
+}
+li { 
+    
+    list-style: none;
+    text-decoration: none;
+}
+.logout a{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: palevioletred;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.title{
+    color: #464646;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.scoreBox,
+.timerBox {
+    border-radius: 100px;
+    padding: 10px 15px;
+    border: 1px solid #444;
+    color: #444;
+}
+.questionContainer{
+    
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.questionContainer p{
+    /* display: block; */
+    background-color: #594a76;
+    display: grid;
+    place-items: center;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.questionContainer label{
+    border: 1px solid #594a76;
+    background-color: #7d6e518d;
+    display: inline-block;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 25px;
+    line-height: 35px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    transition: 1s;
+
+}
+.questionContainer label:hover{
+    background-color: rgb(181, 16, 71);
+    color: #fff;
+    width: 70%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer button{
+    background-color: rgb(164, 48, 87);
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size:  20px;
+    transition: .5s;
+    cursor: pointer;
+}
+.footer button:hover{
+    padding: 7px 30px;
+}
+.result-box-bg{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    height: 650px;
+    width: 750px;
+    display: grid;
+    place-items: center;
+    padding: 160px;
+ }
+.resultBox{
+    margin-bottom: 30px;
+    display: grid;
+    grid-row-gap: 15px;
+    font-size: 20px;
+}
+.resultBox span{
+    font-weight: 600;
+}
+.buttonBox{
+    padding-top: 15px;
+    text-align: center;
+}
+.buttonBox a {
+    background-color: palevioletred;
+    border-radius: 50px;
+    border: 0;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    padding: 7px 15px;
+    margin-top: 5px;
+    display: inline-block;
+
+}

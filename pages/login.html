@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div id="message"></div>
+    <div class="box">
+      <div class="container2">
+        <nav class="container">
+          <div class="logo">
+            <a href="../landing.html">QuizLogo</a>
+          </div>
+          <ul>
+            <li><a href="./quiz.html">Quiz</a></li>
+            <li class="register"><a href="./register.html">Register</a></li>
+            <li class="login"><a href="./login.html">Login</a></li>
+            <li><a href="../landing.html" class="logout">logout</a></li>
+          </ul>
+        </nav>
+        <div class="container">
+          <form class="login_form">
+            <h1>Login here</h1>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" placeholder="username" name="username" id="username" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" placeholder="password" name="password" id="password" />
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Login" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="../script/utility.js"></script>
+    <script src="../script/login.js"></script>
+  </body>
+</html>

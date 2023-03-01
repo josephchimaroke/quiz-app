@@ -1,0 +1,35 @@
+[
+    {
+        "question": "Who's is the greatest player?",
+        "answer": 1,
+        "options": [
+            "messi",
+            "ronaldo",
+            "pele",
+            "none of the above"
+        ],
+        "id": 1
+    },
+    {
+        "question": "Who's the highest goalscorer?",
+        "answer": 2,
+        "options": [
+            "messi",
+            "ronaldo",
+            "pele",
+            "none of the above"
+        ],
+        "id": 2
+    },
+    {
+        "question": "Who'won the last workd cup?",
+        "answer": 1,
+        "options": [
+            "Argentina",
+            "France",
+            "Morocco",
+            "South-africa"
+        ],
+        "id": 2
+    }
+]

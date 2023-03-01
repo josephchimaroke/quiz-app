@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/landing.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftSide">
+        <img src="./images/left-bg.PNG" alt="quiz logo" class="quiz tilt" />
+      </div>
+
+      <div class="rightSide">
+        <h1>Welcome To <span>QuizOrb</span></h1>
+        <h2>Features :-</h2>
+        <ul>
+          <li>10 Questions (10 sec each)</li>
+          <li>Quiz Timer</li>
+          <li>Select Topic</li>
+          <li>Randomize Questions</li>
+          <li>View Correct Answers</li>
+          <li>Offers Reward</li>
+        </ul>
+        <a href="./pages/register.html">Get Started</a>
+      </div>
+    </div>
+  </body>
+  <script src="js/tilt.min.js"></script>
+  <script>
+    $(".tilt").tilt({
+      scale: 1.2,
+    });
+  </script>
+</html>

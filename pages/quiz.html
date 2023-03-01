@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+    <link rel="stylesheet" href="../styles/quiz.css" />
+    <script>
+      let token = localStorage.getItem("token");
+      if (token === null) {
+        window.location.replace("./login");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="whole">
+      <nav class="container">
+        <div class="logo">
+          <a href="../landing.html">QuizLogo</a>
+        </div>
+        <ul>
+          <li><a href="./quiz.html">Quiz</a></li>
+          <li><a href="../styles/register.css">Register</a></li>
+          <li><a href="../pages/login.html">Login</a></li>
+          <li><a href="../landing.html" class="logout">logout</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <h1>SELECT SUBJECT</h1>
+      </div>
+
+      <div class="select-question">
+        <button class="math button1"></button>
+        <button class="sport button2"></button><
+        <button class="riddles button3"></button>
+        <!-- <button class="math"></button>
+        <button class="sport">Sport</button>
+        <button class="riddle">Riddles</button> -->
+      </div>
+      <script src="../script/utility.js"></script>
+      <script>
+        const math = document.querySelector(".math");
+        const sport = document.querySelector(".sport");
+        const riddles = document.querySelector(".riddles");
+        
+        math.addEventListener("click", function () {
+          localStorage.setItem("selectQuestion", "math");
+          location.href = "../pages/question.html";
+        });
+
+        sport.addEventListener("click", function () {
+          localStorage.setItem("selectQuestion", "sport");
+          location.href = "../pages/question.html";
+        });
+
+        riddles.addEventListener("click", function () {
+          localStorage.setItem("selectQuestion", "riddles");
+          location.href = "../pages/question.html";
+        });
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+[
+    {
+        "question": "What has to be broken before you can use it?",
+        "answer": "egg",
+        "options": [
+            "egg",
+            "chicken",
+            "bead",
+            "case"
+        ],
+        "id": 2
+    },
+    {
+        "question": "What is full of hole but still hold water?",
+        "answer": "sponge",
+        "options": [
+            "basket",
+            "cloth",
+            "cup",
+            "sponge"
+        ],
+        "id": 3
+    },
+    {
+        "question": "What can you break, even if you never pick it up or touch",
+        "answer": "a promise",
+        "options": [
+            "egg",
+            "air",
+            "a promise",
+            "bead"
+        ],
+        "id": 1
+    }
+]

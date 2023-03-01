@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quiz</title>
+  <link rel="stylesheet" href="../styles/question.css">
+  <script>
+    let token = localStorage.getItem('token')
+    if (token === null) {
+      window.location.replace('./login.html')
+    }
+  </script>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <nav class="container">
+
+      <!-- <div class="logo">
+        <a href="./index.html">QuizLogo</a>
+      </div> -->
+      <ul>
+        <!-- <li><a href="./quiz.html">Quiz</a></li>
+        <li><a href="./register.html">Register</a></li>
+        <li><a href="./login.html">Login</a></li> -->
+        <li><a href="./quiz.html" class="goback">Go Back</a></li>
+        <li><a href="../landing.html" class="logout">logout</a></li>
+
+      </ul>
+    </nav>
+    <div class="title">
+      <h1 class="topic">Online quiz application</h1>
+    </div>
+ <div class="header">
+   <div class="scoreBox">Score: 0</div>
+   <div class="timerBox">Time Left: <span class="timerBoxSpan"></span></div>
+ </div>
+    <div class="questionContainer">
+      
+    </div>
+    <!-- <div class="optionBox">
+      <!-- <span>messi</span>
+      <span>ronaldo</span>
+      <span>pele</span>
+      <span>none of the above</span> -->
+    </div>
+    <div class="footer">
+    <button class="next">next</button>
+    <button class="submit hidden">Submit</button>
+  </div>
+  </div>
+  <script src="../script/question.js"></script>
+
+</body>
+
+</html>
+</head>
+</div>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url(../images/land.bg.JPG);
+}
+#message{
+    width: 350px;
+    /* height: 50px; */
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    transition: .6s;
+}
+.error{
+    background-color: #ef274886;
+    border: 2px solid #ef2748;
+}
+.success{
+    background-color: rgba(0, 128, 0, 0.525);
+    border: 2px solid green;
+}
+h3{
+    text-align: center;
+    padding: 20px 0;
+}
+form{
+    width: 400px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 3px;
+    font-size: 20px;
+    padding: 20px 20px 0;
+    background-color: rgba(0, 0, 0, 0.399);
+}
+ul{
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+nav a{
+    transition: .4s;
+}
+nav a:hover{
+    letter-spacing: 0.1em;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+input[type="password"],
+input[type="text"]{
+    padding: 10px 0 5px;
+    font-size: 16px;
+    width: 250px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 3px solid white;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+    color: rgba(255, 255, 255, 0.537);
+}
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: #ef274894;
+    padding: 10px 20px;
+    border-color: #ef2748;
+    border-radius: 25px;
+    transition: .4s;
+}
+input[type="submit"]:hover{
+    padding: 10px 30px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/register.css" />
+    <!-- <script>
+      let token = localStorage.getItem('token');
+      if (token) {
+        window.location.replace("./quiz.html");
+      }
+    </script> -->
+  </head>
+  <body>
+    <div id="message"></div>
+    <form>
+      <nav>
+        <ul>
+          <li><a href="./quiz.html">Quiz</a></li>
+          <li class="register"><a href="../pages/register.html">Register</a></li>
+          <li class="login"><a href="./login.html">Login</a></li>
+          <li><a href="../landing.html" class="logout">logout</a></li>
+        </ul>
+      </nav>
+      <h3>Register</h3>
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" name="fullname" id="fullname" />
+        <input type="text" placeholder="Username" name="username" id="username" />
+        <input type="password" placeholder="Password" name="password" id="password" />
+        <input type="submit" value="Register" />
+        <!-- <p>already have an account?</p>
+        <a>sign-in</a> -->
+      </div>
+    </form>
+    <script src="../script/utility.js"></script>
+    <script src="../script/register.js"></script>
+  </body>
+</html>
